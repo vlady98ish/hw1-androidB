@@ -14,7 +14,7 @@ public abstract class AppParent extends Application {
         ADS_ID = this.getAdsId();
         questions = this.generateQuestions();
         for(int i = 0; i < questions.length; i++){
-            questions[i].setOptions(Utils.ShuffleArray(questions[i].getOptions()));
+            questions[i].setOptions(Utils.shuffleArray(questions[i].getOptions()));
         }
 
     }

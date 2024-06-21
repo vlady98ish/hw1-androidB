@@ -15,5 +15,5 @@ dependencyResolutionManagement {
 rootProject.name = "HW1"
 include ':app'
 include ':common'
-include ':food'
-include ':cars'
+include ':sport'
+include ':games'

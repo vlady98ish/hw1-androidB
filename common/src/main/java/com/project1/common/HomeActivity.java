@@ -10,23 +10,24 @@ import android.widget.TextView;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private Button home_BTN_startGame;
-    private TextView home_TV_ADS_ID;
+    private Button startGameButton;
+    private TextView adsIdTextView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        findViews();
+        initializeUI();
+    }
 
-        home_BTN_startGame  = findViewById(R.id.home_BTN_startGame);
-        home_TV_ADS_ID = findViewById(R.id.home_TV_ADS_ID);
+    private void findViews() {
+        startGameButton = findViewById(R.id.home_BTN_startGame);
+        adsIdTextView = findViewById(R.id.home_TV_ADS_ID);
+    }
 
-        home_TV_ADS_ID.setText(AppParent.ADS_ID);
-        home_BTN_startGame.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(HomeActivity.this, GameActivity.class));
-            }
-        });
-
+    private void initializeUI() {
+        adsIdTextView.setText(AppParent.ADS_ID);
+        startGameButton.setOnClickListener(view -> startActivity(new Intent(HomeActivity.this, GameActivity.class)));
     }
 }

@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which company produces the game 'The Legend of Zelda'?",
+    "options": ["Nintendo", "Sony", "Microsoft", "Ubisoft"],
+    "answer": "Nintendo"
+  },
+  {
+    "question": "Which company produces the game 'Halo'?",
+    "options": ["Nintendo", "Sony", "Microsoft", "Ubisoft"],
+    "answer": "Microsoft"
+  },
+  {
+    "question": "Which company produces the game 'Assassin's Creed'?",
+    "options": ["Nintendo", "Sony", "Microsoft", "Ubisoft"],
+    "answer": "Ubisoft"
+  },
+  {
+    "question": "Which company produces the game 'God of War'?",
+    "options": ["Nintendo", "Sony", "Microsoft", "Ubisoft"],
+    "answer": "Sony"
+  },
+  {
+    "question": "Which company produces the game 'Call of Duty'?",
+    "options": ["Nintendo", "Sony", "Microsoft", "Activision"],
+    "answer": "Activision"
+  },
+  {
+    "question": "Which company produces the game 'Mario Kart'?",
+    "options": ["Nintendo", "Sony", "Microsoft", "Ubisoft"],
+    "answer": "Nintendo"
+  },
+  {
+    "question": "Which company produces the game 'Fortnite'?",
+    "options": ["Nintendo", "Epic Games", "Microsoft", "Ubisoft"],
+    "answer": "Epic Games"
+  },
+  {
+    "question": "Which company produces the game 'The Last of Us'?",
+    "options": ["Nintendo", "Sony", "Microsoft", "Ubisoft"],
+    "answer": "Sony"
+  },
+  {
+    "question": "Which company produces the game 'Overwatch'?",
+    "options": ["Blizzard", "Sony", "Microsoft", "Ubisoft"],
+    "answer": "Blizzard"
+  },
+  {
+    "question": "Which company produces the game 'Minecraft'?",
+    "options": ["Nintendo", "Sony", "Mojang", "Ubisoft"],
+    "answer": "Mojang"
+  }
+]

@@ -1,1 +1,5 @@
-<resources></resources>
+<resources>
+    <string name="welcome_image">Welcome Image</string>
+    <string name="start_game">Start Game</string>
+    <string name="ads_id">ADS ID</string>
+</resources>

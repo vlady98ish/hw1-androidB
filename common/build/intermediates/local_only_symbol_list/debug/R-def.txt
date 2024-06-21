@@ -1,14 +1,15 @@
 R_DEF: Internal format may change without notice
 local
+color background
 color black
 color primary
 color purple_200
 color purple_500
 color purple_700
-color secondary
 color teal_200
 color teal_700
 color text
+color text_secondary
 color white
 drawable back
 drawable welcome
@@ -22,4 +23,7 @@ id home_IV_welcome
 id home_TV_ADS_ID
 layout activity_game
 layout activity_home
+string ads_id
+string start_game
+string welcome_image
 style Theme.HW1

@@ -9,33 +9,39 @@
     <ImageView
         android:id="@+id/home_IV_welcome"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-
+        android:layout_height="match_parent"
         android:src="@drawable/welcome"
         android:scaleType="fitXY"
+        android:contentDescription="@string/welcome_image"
         />
 
     <Button
         android:id="@+id/home_BTN_startGame"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/home_IV_welcome"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:text="Start Game"
-        android:background="@color/primary"
+        android:layout_marginBottom="20dp"
+        android:text="@string/start_game"
+        android:backgroundTint="@color/primary"
         android:textColor="@color/text"
-
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:elevation="4dp"
         />
-
 
     <TextView
         android:id="@+id/home_TV_ADS_ID"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_above="@id/home_BTN_startGame"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
         android:background="#ADF0F0F0"
-        android:text="ADS ID"
+        android:text="@string/ads_id"
+        android:textColor="@color/text_secondary"
         android:gravity="center"
+        android:textSize="16sp"
         />
 </RelativeLayout>

@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color primary
+color purple_200
+color purple_500
+color purple_700
+color secondary
+color teal_200
+color teal_700
+color text
+color white
+drawable back
+drawable welcome
+id game_BTN_exit
+id game_BTN_next
+id game_RBG_options
+id game_TV_answer
+id game_TV_question
+id home_BTN_startGame
+id home_IV_welcome
+id home_TV_ADS_ID
+layout activity_game
+layout activity_home
+style Theme.HW1

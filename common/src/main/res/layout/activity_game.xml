@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/game_TV_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_margin="20dp"
+        android:text="Question 1"
+        android:textSize="30sp"
+        />
+
+    <RadioGroup
+        android:id="@+id/game_RBG_options"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_below="@+id/game_TV_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:textColor="@color/black"
+            android:text="Option 1"
+            android:height="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:textColor="@color/black"
+            android:text="Option 2"
+            android:height="32dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:textColor="@color/black"
+            android:height="32dp"
+
+            android:text="Option 3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:height="32dp"
+            android:layout_height="wrap_content"
+            android:text="Option 4"
+            android:textColor="@color/black" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/game_TV_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/game_RBG_options"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/game_BTN_exit"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:backgroundTint="#FF0000"
+            android:textColor="@color/white"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/game_BTN_next"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:backgroundTint="#FFEB3B"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
